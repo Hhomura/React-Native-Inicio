@@ -2,6 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
     container:{
+        justifyContent: 'center'
     },
     Titulo:{
         color: 'white',
@@ -11,22 +12,23 @@ export default StyleSheet.create({
     }
     ,
     input:{
-        height: 35,
+        height: 33,
         borderColor: 'white',
         borderWidth: 2,
         borderRadius: 10,
         padding: 10,
         fontStyle: 'italic',
         backgroundColor: '#ddd',
-        opacity: 0.5
+        opacity: 0.5,
+        fontSize: 14
     },
     labelInput:{
         color: 'white',
-        fontSize: 16
+        fontSize: 12
     },
     InputContainer:{
-        marginTop: 10,
-        marginBottom: 10
+        marginTop: 7,
+        marginBottom: 7
     },
     btn:{
         marginTop: 15,
