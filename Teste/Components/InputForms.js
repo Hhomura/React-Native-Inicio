@@ -12,7 +12,7 @@ export default ((props) =>{
             <TextInput
             style={StylesDefault.input}
             keyboardType= {props.type}
-            onChangeText={text => props.alter(nameInput, text)}
+            onChangeText={text => props.alter(text)}
             />
 
         </View>
